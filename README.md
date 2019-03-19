@@ -44,7 +44,7 @@ The BLE CLI source code is located here. You can check it out and build your own
 * [nrf52840-mdk/ble_app_cli](https://github.com/makerdiary/nrf52840-mdk/tree/master/examples/nrf5-sdk/ble_app_cli)
 * [nrf52840-mdk-usb-dongle/ble_app_cli](https://github.com/makerdiary/nrf52840-mdk-usb-dongle/tree/master/examples/nrf5-sdk/ble_app_cli)
 
-See [this post](https://blog.makerdiary.com/how-to-use-nrf5-sdk-with-arm-gcc/) to set up your developing environment with nRF5 SDK and ARM GCC.
+See [this post](https://blog.makerdiary.com/how-to-use-nrf5-sdk-with-arm-gcc/) to set up your development environment with nRF5 SDK and ARM GCC.
 
 
 ## Supported Boards
