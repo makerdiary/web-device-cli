@@ -2,6 +2,8 @@
 
 A Web Command Line Interface via NUS (Nordic UART Service) using [Web Bluetooth](https://webbluetoothcg.github.io/web-bluetooth/).
 
+![](img/web-device-cli-chrome-desktop.png)
+
 ## Prerequisites
 
 * nRF52 based board, see [Supported Boards](#supported-boards) for more information 
