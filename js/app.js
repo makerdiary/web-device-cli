@@ -195,6 +195,10 @@ function setupHterm() {
         }],
     ]);
 
+    //Send backspace \x08 instead of delete  (\x7f) when pressing the backspace
+    // key
+    term.prefs_.set('backspace-sends-backspace', true)
+
     // Useful for console debugging.
     window.term_ = term;
 }
