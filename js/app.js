@@ -129,6 +129,14 @@ function handleNotifications(event) {
     for (let i = 0; i < value.byteLength; i++) {
         str += String.fromCharCode(value.getUint8(i));
     }
+	
+	if(value.getUint8(value.byteLength - 1) == 127){
+		console.log('send backspace');
+		window.term_.cursorLeft(1);
+		window.term_.eraseToRight(1);
+	}
+	
+	console.log('send to term' + str + ' ' + value.getUint8(0));
     window.term_.io.print(str);
 }
 
