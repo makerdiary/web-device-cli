@@ -130,7 +130,7 @@ function handleNotifications(event) {
         str += String.fromCharCode(value.getUint8(i));
     }
 	
-	if(value.getUint8(0) == 127){
+	if(value.getUint8(value.byteLength - 1) == 127){
 		console.log('send backspace');
 		window.term_.cursorLeft(1);
 		window.term_.eraseToRight(1);
